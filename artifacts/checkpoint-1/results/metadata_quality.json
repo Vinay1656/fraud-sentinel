@@ -1,0 +1,42 @@
+{
+  "accounts": {
+    "input_rows": 178,
+    "selected_rows": 178,
+    "quarantined_rows": 0,
+    "duplicate_extra_rows": 0,
+    "duplicate_conflict_groups": 0,
+    "field_issue_counts": {
+      "account_status:missing": 11,
+      "account_tier:missing": 8,
+      "account_type:missing": 6,
+      "branch_city:missing": 14,
+      "branch_code:missing": 19,
+      "card_type:missing": 18,
+      "close_date:missing": 177,
+      "overdraft_enabled:missing": 6
+    },
+    "selected_rows_with_flags": 178,
+    "unmatched_customer_references": 0
+  },
+  "customers": {
+    "input_rows": 124,
+    "selected_rows": 124,
+    "quarantined_rows": 0,
+    "duplicate_extra_rows": 0,
+    "duplicate_conflict_groups": 0,
+    "field_issue_counts": {
+      "annual_income:missing": 7,
+      "customer_segment:missing": 3,
+      "education_level:missing": 10,
+      "employment_status:missing": 9,
+      "gender:missing": 7,
+      "kyc_status:missing": 6,
+      "marital_status:missing": 18,
+      "occupation:missing": 12,
+      "phone_number:missing": 3,
+      "preferred_channel:missing": 14,
+      "risk_rating:missing": 18
+    },
+    "selected_rows_with_flags": 69
+  }
+}

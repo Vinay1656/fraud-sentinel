@@ -70,7 +70,7 @@ tests/              CPU-only contract and demo-data checks
 docs/               presentation, results, roadmap, and data plan
 ```
 
-Original customer data, downloaded weights, trained adapters, local outputs, and submission archives are excluded from Git. The model source is [mlx-community/Llama-3.2-1B-Instruct-4bit](https://huggingface.co/mlx-community/Llama-3.2-1B-Instruct-4bit), revision `08231374eeacb049a0eade7922910865b8fce912`.
+The supplied dummy CSVs are public in `data/raw/`, with user authorization. The trained adapter and recorded results are public in `artifacts/checkpoint-1/`. Downloaded base weights and working output directories remain excluded from Git. The model source is [mlx-community/Llama-3.2-1B-Instruct-4bit](https://huggingface.co/mlx-community/Llama-3.2-1B-Instruct-4bit), revision `08231374eeacb049a0eade7922910865b8fce912`.
 
 ## Checks
 
@@ -84,3 +84,7 @@ These checks run without a GPU. Model training and full inference require Apple 
 ## Development checkpoints
 
 Commit a working, verified increment at each checkpoint. Planned extensions are tracked separately from working features; the next proposal is a sector risk heatmap with a linked investigation queue.
+
+## Published trained checkpoint
+
+[Adapter, predictions, cleaned data, and loading instructions](artifacts/checkpoint-1/README.md). [Download checkpoint ZIP](https://github.com/Vinay1656/fraud-sentinel/releases/tag/checkpoint-1). Built with Llama. The base model is not bundled; its exact download revision and upstream terms are included.

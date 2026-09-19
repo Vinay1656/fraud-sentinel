@@ -1,0 +1,5246 @@
+[
+  {
+    "account_id": "ACC_000001",
+    "customer_id": "CUST_00001",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-08-26",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": "Gurugram",
+    "current_balance": 33507.22,
+    "avg_monthly_balance_6m": 22831.7,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-20",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      2
+    ]
+  },
+  {
+    "account_id": "ACC_000002",
+    "customer_id": "CUST_00001",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-03-31",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Gurugram",
+    "current_balance": 25171.02,
+    "avg_monthly_balance_6m": 32699.45,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-15",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      3
+    ]
+  },
+  {
+    "account_id": "ACC_000003",
+    "customer_id": "CUST_00002",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2022-03-24",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": "Gurugram",
+    "current_balance": 13569.59,
+    "avg_monthly_balance_6m": 8583.4,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-23",
+    "avg_monthly_txn_count": 29.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      4
+    ]
+  },
+  {
+    "account_id": "ACC_000004",
+    "customer_id": "CUST_00003",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-05-18",
+    "close_date": null,
+    "branch_code": "BR131",
+    "branch_city": "Indore",
+    "current_balance": 6150.0,
+    "avg_monthly_balance_6m": 8126.2,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-05",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      5
+    ]
+  },
+  {
+    "account_id": "ACC_000005",
+    "customer_id": "CUST_00004",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-10-21",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": null,
+    "current_balance": 38691.79,
+    "avg_monthly_balance_6m": 50101.9,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-11",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      6
+    ]
+  },
+  {
+    "account_id": "ACC_000006",
+    "customer_id": "CUST_00004",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-06-04",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Chandigarh",
+    "current_balance": 169059.43,
+    "avg_monthly_balance_6m": 197294.16,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-11",
+    "avg_monthly_txn_count": 8.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      7
+    ]
+  },
+  {
+    "account_id": "ACC_000007",
+    "customer_id": "CUST_00005",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-03-26",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Hyderabad",
+    "current_balance": 39100.81,
+    "avg_monthly_balance_6m": 32988.68,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-25",
+    "avg_monthly_txn_count": 12.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      8
+    ]
+  },
+  {
+    "account_id": "ACC_000008",
+    "customer_id": "CUST_00006",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-12-28",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Noida",
+    "current_balance": 76650.06,
+    "avg_monthly_balance_6m": 106982.88,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-15",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      9
+    ]
+  },
+  {
+    "account_id": "ACC_000009",
+    "customer_id": "CUST_00006",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-10-29",
+    "close_date": null,
+    "branch_code": "BR125",
+    "branch_city": "Noida",
+    "current_balance": 30923.39,
+    "avg_monthly_balance_6m": 45829.22,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-24",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      10
+    ]
+  },
+  {
+    "account_id": "ACC_000010",
+    "customer_id": "CUST_00007",
+    "account_type": "CREDIT_CARD",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2018-09-24",
+    "close_date": null,
+    "branch_code": "BR139",
+    "branch_city": "Kochi",
+    "current_balance": 46700.76,
+    "avg_monthly_balance_6m": 40686.09,
+    "credit_limit": 1000000.0,
+    "credit_utilization_pct": 71.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": true,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-16",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      11
+    ]
+  },
+  {
+    "account_id": "ACC_000011",
+    "customer_id": "CUST_00007",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2025-03-05",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Kochi",
+    "current_balance": 19473.67,
+    "avg_monthly_balance_6m": 19994.63,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      12
+    ]
+  },
+  {
+    "account_id": "ACC_000012",
+    "customer_id": "CUST_00008",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-09-12",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Jaipur",
+    "current_balance": 69008.56,
+    "avg_monthly_balance_6m": 60329.64,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-26",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      13
+    ]
+  },
+  {
+    "account_id": "ACC_000013",
+    "customer_id": "CUST_00008",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-09-07",
+    "close_date": null,
+    "branch_code": "BR101",
+    "branch_city": "Jaipur",
+    "current_balance": 28219.89,
+    "avg_monthly_balance_6m": 22459.24,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-13",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      14
+    ]
+  },
+  {
+    "account_id": "ACC_000014",
+    "customer_id": "CUST_00009",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-07-29",
+    "close_date": null,
+    "branch_code": "BR124",
+    "branch_city": "Pune",
+    "current_balance": 111529.49,
+    "avg_monthly_balance_6m": 114509.49,
+    "credit_limit": 1000000.0,
+    "credit_utilization_pct": 49.9,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      15
+    ]
+  },
+  {
+    "account_id": "ACC_000015",
+    "customer_id": "CUST_00009",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-11-24",
+    "close_date": null,
+    "branch_code": "BR128",
+    "branch_city": "Pune",
+    "current_balance": 100664.28,
+    "avg_monthly_balance_6m": 119101.31,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-06",
+    "avg_monthly_txn_count": 31.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      16
+    ]
+  },
+  {
+    "account_id": "ACC_000016",
+    "customer_id": "CUST_00010",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-08-26",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Mumbai",
+    "current_balance": 13191.26,
+    "avg_monthly_balance_6m": 15346.86,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 34.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      17
+    ]
+  },
+  {
+    "account_id": "ACC_000017",
+    "customer_id": "CUST_00011",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-04-08",
+    "close_date": null,
+    "branch_code": "BR133",
+    "branch_city": "Mumbai",
+    "current_balance": 35503.31,
+    "avg_monthly_balance_6m": 50732.51,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-30",
+    "avg_monthly_txn_count": 14.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      18
+    ]
+  },
+  {
+    "account_id": "ACC_000018",
+    "customer_id": "CUST_00012",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-09-12",
+    "close_date": null,
+    "branch_code": "BR110",
+    "branch_city": "Coimbatore",
+    "current_balance": 70005.66,
+    "avg_monthly_balance_6m": 95053.26,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-09-17",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      19
+    ]
+  },
+  {
+    "account_id": "ACC_000019",
+    "customer_id": "CUST_00013",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-08-10",
+    "close_date": null,
+    "branch_code": "BR123",
+    "branch_city": "Gurugram",
+    "current_balance": 53685.88,
+    "avg_monthly_balance_6m": 40570.15,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-17",
+    "avg_monthly_txn_count": 4.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      20
+    ]
+  },
+  {
+    "account_id": "ACC_000020",
+    "customer_id": "CUST_00014",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-06-23",
+    "close_date": null,
+    "branch_code": "BR117",
+    "branch_city": "Kochi",
+    "current_balance": 13019.76,
+    "avg_monthly_balance_6m": 12173.94,
+    "credit_limit": 350000.0,
+    "credit_utilization_pct": 71.1,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-01",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      21
+    ]
+  },
+  {
+    "account_id": "ACC_000021",
+    "customer_id": "CUST_00014",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-03-29",
+    "close_date": null,
+    "branch_code": "BR124",
+    "branch_city": "Kochi",
+    "current_balance": 12932.84,
+    "avg_monthly_balance_6m": 12007.2,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-28",
+    "avg_monthly_txn_count": 7.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      22
+    ]
+  },
+  {
+    "account_id": "ACC_000022",
+    "customer_id": "CUST_00015",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-06-11",
+    "close_date": null,
+    "branch_code": "BR107",
+    "branch_city": "Delhi",
+    "current_balance": 53895.77,
+    "avg_monthly_balance_6m": 63424.53,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-16",
+    "avg_monthly_txn_count": 29.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      23
+    ]
+  },
+  {
+    "account_id": "ACC_000023",
+    "customer_id": "CUST_00016",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-07-20",
+    "close_date": null,
+    "branch_code": "BR114",
+    "branch_city": "Chennai",
+    "current_balance": 34324.63,
+    "avg_monthly_balance_6m": 25653.41,
+    "credit_limit": 50000.0,
+    "credit_utilization_pct": 54.1,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-21",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      24
+    ]
+  },
+  {
+    "account_id": "ACC_000024",
+    "customer_id": "CUST_00016",
+    "account_type": "CREDIT_CARD",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2021-01-05",
+    "close_date": null,
+    "branch_code": "BR116",
+    "branch_city": null,
+    "current_balance": 109041.21,
+    "avg_monthly_balance_6m": 119985.94,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 79.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-08",
+    "avg_monthly_txn_count": 34.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "account_status:missing",
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      25
+    ]
+  },
+  {
+    "account_id": "ACC_000025",
+    "customer_id": "CUST_00017",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-03-06",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Chennai",
+    "current_balance": 33573.63,
+    "avg_monthly_balance_6m": 22562.97,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-13",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      26
+    ]
+  },
+  {
+    "account_id": "ACC_000026",
+    "customer_id": "CUST_00017",
+    "account_type": "SAVINGS",
+    "account_status": "FROZEN",
+    "currency": "INR",
+    "open_date": "2019-07-12",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Chennai",
+    "current_balance": 21434.74,
+    "avg_monthly_balance_6m": 30360.03,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-17",
+    "avg_monthly_txn_count": 7.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      27
+    ]
+  },
+  {
+    "account_id": "ACC_000027",
+    "customer_id": "CUST_00018",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2021-03-04",
+    "close_date": null,
+    "branch_code": "BR109",
+    "branch_city": "Coimbatore",
+    "current_balance": 143337.28,
+    "avg_monthly_balance_6m": 149239.59,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-03",
+    "avg_monthly_txn_count": 6.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      28
+    ]
+  },
+  {
+    "account_id": "ACC_000028",
+    "customer_id": "CUST_00019",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-03-26",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Mumbai",
+    "current_balance": 25664.47,
+    "avg_monthly_balance_6m": 30125.72,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-07",
+    "avg_monthly_txn_count": 12.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      29
+    ]
+  },
+  {
+    "account_id": "ACC_000029",
+    "customer_id": "CUST_00020",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-04-24",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Noida",
+    "current_balance": 139794.81,
+    "avg_monthly_balance_6m": 126459.9,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-28",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      30
+    ]
+  },
+  {
+    "account_id": "ACC_000030",
+    "customer_id": "CUST_00020",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-03-28",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Noida",
+    "current_balance": 37556.12,
+    "avg_monthly_balance_6m": 51273.37,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 6.7,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-23",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      31
+    ]
+  },
+  {
+    "account_id": "ACC_000031",
+    "customer_id": "CUST_00020",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-09-27",
+    "close_date": null,
+    "branch_code": "BR108",
+    "branch_city": "Noida",
+    "current_balance": 33251.29,
+    "avg_monthly_balance_6m": 31877.92,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": true,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-24",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      32
+    ]
+  },
+  {
+    "account_id": "ACC_000032",
+    "customer_id": "CUST_00021",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-01-23",
+    "close_date": null,
+    "branch_code": "BR123",
+    "branch_city": "Delhi",
+    "current_balance": 238267.01,
+    "avg_monthly_balance_6m": 148283.29,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-19",
+    "avg_monthly_txn_count": 8.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      33
+    ]
+  },
+  {
+    "account_id": "ACC_000033",
+    "customer_id": "CUST_00022",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-09-29",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": null,
+    "current_balance": 26562.75,
+    "avg_monthly_balance_6m": 22584.18,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-05",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      34
+    ]
+  },
+  {
+    "account_id": "ACC_000034",
+    "customer_id": "CUST_00023",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-07-14",
+    "close_date": null,
+    "branch_code": "BR127",
+    "branch_city": "Chennai",
+    "current_balance": 74118.05,
+    "avg_monthly_balance_6m": 92545.75,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 54.6,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-11",
+    "avg_monthly_txn_count": 39.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      35
+    ]
+  },
+  {
+    "account_id": "ACC_000035",
+    "customer_id": "CUST_00024",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-08-16",
+    "close_date": null,
+    "branch_code": "BR133",
+    "branch_city": "Delhi",
+    "current_balance": 10802.82,
+    "avg_monthly_balance_6m": 11859.27,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-29",
+    "avg_monthly_txn_count": 38.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      36
+    ]
+  },
+  {
+    "account_id": "ACC_000036",
+    "customer_id": "CUST_00024",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2021-10-01",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Delhi",
+    "current_balance": 7044.01,
+    "avg_monthly_balance_6m": 4485.99,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-04",
+    "avg_monthly_txn_count": 6.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      37
+    ]
+  },
+  {
+    "account_id": "ACC_000037",
+    "customer_id": "CUST_00025",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-02-04",
+    "close_date": null,
+    "branch_code": "BR103",
+    "branch_city": "Hyderabad",
+    "current_balance": 99443.98,
+    "avg_monthly_balance_6m": 130700.6,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-27",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      38
+    ]
+  },
+  {
+    "account_id": "ACC_000038",
+    "customer_id": "CUST_00026",
+    "account_type": "SALARY",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2022-03-15",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": null,
+    "current_balance": 23185.21,
+    "avg_monthly_balance_6m": 33206.59,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-06",
+    "avg_monthly_txn_count": 6.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "account_status:missing",
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      39
+    ]
+  },
+  {
+    "account_id": "ACC_000039",
+    "customer_id": "CUST_00026",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2020-03-09",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Gurugram",
+    "current_balance": 66732.98,
+    "avg_monthly_balance_6m": 46603.25,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 6,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-06",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      40
+    ]
+  },
+  {
+    "account_id": "ACC_000040",
+    "customer_id": "CUST_00026",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-03-18",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Gurugram",
+    "current_balance": 23662.44,
+    "avg_monthly_balance_6m": 27441.53,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-10",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      41
+    ]
+  },
+  {
+    "account_id": "ACC_000041",
+    "customer_id": "CUST_00027",
+    "account_type": "SAVINGS",
+    "account_status": "FROZEN",
+    "currency": "INR",
+    "open_date": "2020-11-03",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": null,
+    "current_balance": 28670.99,
+    "avg_monthly_balance_6m": 17966.58,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-04",
+    "avg_monthly_txn_count": 2.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_city:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      42
+    ]
+  },
+  {
+    "account_id": "ACC_000042",
+    "customer_id": "CUST_00028",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2024-07-02",
+    "close_date": null,
+    "branch_code": "BR117",
+    "branch_city": "Chandigarh",
+    "current_balance": 295856.06,
+    "avg_monthly_balance_6m": 404734.11,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-24",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      43
+    ]
+  },
+  {
+    "account_id": "ACC_000043",
+    "customer_id": "CUST_00029",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2026-02-27",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Jaipur",
+    "current_balance": 21772.83,
+    "avg_monthly_balance_6m": 30436.28,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-07",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      44
+    ]
+  },
+  {
+    "account_id": "ACC_000044",
+    "customer_id": "CUST_00030",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-09-27",
+    "close_date": null,
+    "branch_code": "BR108",
+    "branch_city": "Jaipur",
+    "current_balance": 13445.98,
+    "avg_monthly_balance_6m": 16752.01,
+    "credit_limit": 350000.0,
+    "credit_utilization_pct": 45.1,
+    "overdraft_enabled": null,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      45
+    ]
+  },
+  {
+    "account_id": "ACC_000045",
+    "customer_id": "CUST_00031",
+    "account_type": "SAVINGS",
+    "account_status": "FROZEN",
+    "currency": "INR",
+    "open_date": "2022-10-14",
+    "close_date": null,
+    "branch_code": "BR124",
+    "branch_city": null,
+    "current_balance": 37397.42,
+    "avg_monthly_balance_6m": 56014.69,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-06",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      46
+    ]
+  },
+  {
+    "account_id": "ACC_000046",
+    "customer_id": "CUST_00032",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-12-30",
+    "close_date": null,
+    "branch_code": "BR101",
+    "branch_city": "Pune",
+    "current_balance": 73710.96,
+    "avg_monthly_balance_6m": 53140.46,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-10",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      47
+    ]
+  },
+  {
+    "account_id": "ACC_000047",
+    "customer_id": "CUST_00033",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-10-19",
+    "close_date": null,
+    "branch_code": "BR107",
+    "branch_city": "Chandigarh",
+    "current_balance": 161259.33,
+    "avg_monthly_balance_6m": 162541.66,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 6.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      48
+    ]
+  },
+  {
+    "account_id": "ACC_000048",
+    "customer_id": "CUST_00033",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-03-01",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Chandigarh",
+    "current_balance": 119074.23,
+    "avg_monthly_balance_6m": 129406.41,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-13",
+    "avg_monthly_txn_count": 7.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      49
+    ]
+  },
+  {
+    "account_id": "ACC_000049",
+    "customer_id": "CUST_00034",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2021-11-26",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Indore",
+    "current_balance": 122439.02,
+    "avg_monthly_balance_6m": 131816.36,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-30",
+    "avg_monthly_txn_count": 10.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      50
+    ]
+  },
+  {
+    "account_id": "ACC_000050",
+    "customer_id": "CUST_00034",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-01-19",
+    "close_date": null,
+    "branch_code": "BR102",
+    "branch_city": "Indore",
+    "current_balance": 168339.04,
+    "avg_monthly_balance_6m": 124553.62,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 23.0,
+    "overdraft_enabled": false,
+    "card_type": "SIGNATURE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      51
+    ]
+  },
+  {
+    "account_id": "ACC_000051",
+    "customer_id": "CUST_00035",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-01-20",
+    "close_date": null,
+    "branch_code": "BR106",
+    "branch_city": "Ahmedabad",
+    "current_balance": 60800.17,
+    "avg_monthly_balance_6m": 60468.67,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 6,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-02",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      52
+    ]
+  },
+  {
+    "account_id": "ACC_000052",
+    "customer_id": "CUST_00036",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2016-12-10",
+    "close_date": null,
+    "branch_code": "BR118",
+    "branch_city": "Coimbatore",
+    "current_balance": 225867.46,
+    "avg_monthly_balance_6m": 156233.59,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-15",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      53
+    ]
+  },
+  {
+    "account_id": "ACC_000053",
+    "customer_id": "CUST_00037",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-09-27",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Indore",
+    "current_balance": 7173.37,
+    "avg_monthly_balance_6m": 4969.01,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-05",
+    "avg_monthly_txn_count": 2.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      54
+    ]
+  },
+  {
+    "account_id": "ACC_000054",
+    "customer_id": "CUST_00038",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-04-10",
+    "close_date": null,
+    "branch_code": "BR115",
+    "branch_city": "Chennai",
+    "current_balance": 8055.53,
+    "avg_monthly_balance_6m": 8132.91,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-19",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      55
+    ]
+  },
+  {
+    "account_id": "ACC_000055",
+    "customer_id": "CUST_00038",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-11-24",
+    "close_date": null,
+    "branch_code": "BR140",
+    "branch_city": "Chennai",
+    "current_balance": 7582.94,
+    "avg_monthly_balance_6m": 7173.87,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-01",
+    "avg_monthly_txn_count": 13.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      56
+    ]
+  },
+  {
+    "account_id": "ACC_000056",
+    "customer_id": "CUST_00039",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2018-10-11",
+    "close_date": null,
+    "branch_code": "BR104",
+    "branch_city": "Gurugram",
+    "current_balance": 12102.81,
+    "avg_monthly_balance_6m": 10552.01,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-17",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      57
+    ]
+  },
+  {
+    "account_id": "ACC_000057",
+    "customer_id": "CUST_00040",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-09-01",
+    "close_date": null,
+    "branch_code": "BR103",
+    "branch_city": "Kolkata",
+    "current_balance": 77009.47,
+    "avg_monthly_balance_6m": 106002.63,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-20",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      58
+    ]
+  },
+  {
+    "account_id": "ACC_000058",
+    "customer_id": "CUST_00041",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-01-07",
+    "close_date": null,
+    "branch_code": "BR116",
+    "branch_city": "Mumbai",
+    "current_balance": 8834.28,
+    "avg_monthly_balance_6m": 7948.95,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "SIGNATURE",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-07-20",
+    "avg_monthly_txn_count": 32.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      59
+    ]
+  },
+  {
+    "account_id": "ACC_000059",
+    "customer_id": "CUST_00042",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-04-13",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Kochi",
+    "current_balance": 5089.88,
+    "avg_monthly_balance_6m": 5252.13,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      60
+    ]
+  },
+  {
+    "account_id": "ACC_000060",
+    "customer_id": "CUST_00042",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-11-28",
+    "close_date": null,
+    "branch_code": "BR131",
+    "branch_city": "Kochi",
+    "current_balance": 79083.49,
+    "avg_monthly_balance_6m": 50907.02,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-06",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "account_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      61
+    ]
+  },
+  {
+    "account_id": "ACC_000061",
+    "customer_id": "CUST_00042",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-05-28",
+    "close_date": null,
+    "branch_code": "BR132",
+    "branch_city": "Kochi",
+    "current_balance": 33482.22,
+    "avg_monthly_balance_6m": 47777.16,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-25",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      62
+    ]
+  },
+  {
+    "account_id": "ACC_000062",
+    "customer_id": "CUST_00043",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-09-16",
+    "close_date": null,
+    "branch_code": "BR113",
+    "branch_city": "Kolkata",
+    "current_balance": 185625.62,
+    "avg_monthly_balance_6m": 129857.47,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-31",
+    "avg_monthly_txn_count": 32.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      63
+    ]
+  },
+  {
+    "account_id": "ACC_000063",
+    "customer_id": "CUST_00043",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-09-06",
+    "close_date": null,
+    "branch_code": "BR133",
+    "branch_city": "Kolkata",
+    "current_balance": 35832.8,
+    "avg_monthly_balance_6m": 48893.56,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": null,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-18",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      64
+    ]
+  },
+  {
+    "account_id": "ACC_000064",
+    "customer_id": "CUST_00044",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-01-17",
+    "close_date": null,
+    "branch_code": "BR121",
+    "branch_city": "Indore",
+    "current_balance": 408531.98,
+    "avg_monthly_balance_6m": 304956.51,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-08-24",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      65
+    ]
+  },
+  {
+    "account_id": "ACC_000065",
+    "customer_id": "CUST_00044",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-04-11",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Indore",
+    "current_balance": 32497.85,
+    "avg_monthly_balance_6m": 37147.71,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-23",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "branch_code:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      66
+    ]
+  },
+  {
+    "account_id": "ACC_000066",
+    "customer_id": "CUST_00045",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-08-24",
+    "close_date": null,
+    "branch_code": "BR140",
+    "branch_city": "Jaipur",
+    "current_balance": 54575.19,
+    "avg_monthly_balance_6m": 43372.0,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      67
+    ]
+  },
+  {
+    "account_id": "ACC_000067",
+    "customer_id": "CUST_00045",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-04-08",
+    "close_date": null,
+    "branch_code": "BR136",
+    "branch_city": "Jaipur",
+    "current_balance": 49799.29,
+    "avg_monthly_balance_6m": 45408.52,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-28",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      68
+    ]
+  },
+  {
+    "account_id": "ACC_000068",
+    "customer_id": "CUST_00046",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-08-24",
+    "close_date": null,
+    "branch_code": "BR121",
+    "branch_city": "Jaipur",
+    "current_balance": 17013.46,
+    "avg_monthly_balance_6m": 21050.45,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      69
+    ]
+  },
+  {
+    "account_id": "ACC_000069",
+    "customer_id": "CUST_00047",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2023-10-14",
+    "close_date": null,
+    "branch_code": "BR101",
+    "branch_city": "Hyderabad",
+    "current_balance": 25855.17,
+    "avg_monthly_balance_6m": 31641.19,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-11",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      70
+    ]
+  },
+  {
+    "account_id": "ACC_000070",
+    "customer_id": "CUST_00048",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2017-05-30",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Chennai",
+    "current_balance": 37297.1,
+    "avg_monthly_balance_6m": 22512.79,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-20",
+    "avg_monthly_txn_count": 38.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      71
+    ]
+  },
+  {
+    "account_id": "ACC_000071",
+    "customer_id": "CUST_00049",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-10-07",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Chennai",
+    "current_balance": 32100.73,
+    "avg_monthly_balance_6m": 22926.95,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-11",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      72
+    ]
+  },
+  {
+    "account_id": "ACC_000072",
+    "customer_id": "CUST_00050",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-11-25",
+    "close_date": null,
+    "branch_code": "BR139",
+    "branch_city": "Kolkata",
+    "current_balance": 46818.98,
+    "avg_monthly_balance_6m": 40511.52,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-08",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      73
+    ]
+  },
+  {
+    "account_id": "ACC_000073",
+    "customer_id": "CUST_00051",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-03-24",
+    "close_date": null,
+    "branch_code": "BR106",
+    "branch_city": "Indore",
+    "current_balance": 228173.18,
+    "avg_monthly_balance_6m": 316362.03,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-12",
+    "avg_monthly_txn_count": 12.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      74
+    ]
+  },
+  {
+    "account_id": "ACC_000074",
+    "customer_id": "CUST_00052",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-02-01",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Jaipur",
+    "current_balance": 28611.18,
+    "avg_monthly_balance_6m": 34615.48,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 23.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      75
+    ]
+  },
+  {
+    "account_id": "ACC_000075",
+    "customer_id": "CUST_00053",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2024-06-30",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Mysuru",
+    "current_balance": 23748.94,
+    "avg_monthly_balance_6m": 31263.71,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-23",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      76
+    ]
+  },
+  {
+    "account_id": "ACC_000076",
+    "customer_id": "CUST_00054",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-05-16",
+    "close_date": null,
+    "branch_code": "BR110",
+    "branch_city": "Chennai",
+    "current_balance": 10033.24,
+    "avg_monthly_balance_6m": 12183.6,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": null,
+    "card_type": "SIGNATURE",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 11.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      77
+    ]
+  },
+  {
+    "account_id": "ACC_000077",
+    "customer_id": "CUST_00055",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-06-24",
+    "close_date": null,
+    "branch_code": "BR102",
+    "branch_city": null,
+    "current_balance": 36014.13,
+    "avg_monthly_balance_6m": 28076.18,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": true,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-21",
+    "avg_monthly_txn_count": 2.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      78
+    ]
+  },
+  {
+    "account_id": "ACC_000078",
+    "customer_id": "CUST_00056",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-08-04",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Gurugram",
+    "current_balance": 11542.72,
+    "avg_monthly_balance_6m": 16050.48,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 32.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      79
+    ]
+  },
+  {
+    "account_id": "ACC_000079",
+    "customer_id": "CUST_00056",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-05-27",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Gurugram",
+    "current_balance": 5563.15,
+    "avg_monthly_balance_6m": 7258.04,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-23",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      80
+    ]
+  },
+  {
+    "account_id": "ACC_000080",
+    "customer_id": "CUST_00057",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-07-12",
+    "close_date": null,
+    "branch_code": "BR102",
+    "branch_city": "Gurugram",
+    "current_balance": 12751.56,
+    "avg_monthly_balance_6m": 16810.22,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-17",
+    "avg_monthly_txn_count": 34.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      81
+    ]
+  },
+  {
+    "account_id": "ACC_000081",
+    "customer_id": "CUST_00058",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-12-09",
+    "close_date": null,
+    "branch_code": "BR139",
+    "branch_city": "Mumbai",
+    "current_balance": 140698.12,
+    "avg_monthly_balance_6m": 87349.06,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-31",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      82
+    ]
+  },
+  {
+    "account_id": "ACC_000082",
+    "customer_id": "CUST_00059",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-06-09",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Kolkata",
+    "current_balance": 267919.77,
+    "avg_monthly_balance_6m": 300844.55,
+    "credit_limit": 100000.0,
+    "credit_utilization_pct": 93.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-29",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      83
+    ]
+  },
+  {
+    "account_id": "ACC_000083",
+    "customer_id": "CUST_00059",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-06-02",
+    "close_date": null,
+    "branch_code": "BR113",
+    "branch_city": "Kolkata",
+    "current_balance": 15763.49,
+    "avg_monthly_balance_6m": 15049.34,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-20",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      84
+    ]
+  },
+  {
+    "account_id": "ACC_000084",
+    "customer_id": "CUST_00060",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-02-16",
+    "close_date": null,
+    "branch_code": "BR124",
+    "branch_city": "Pune",
+    "current_balance": 19096.16,
+    "avg_monthly_balance_6m": 17292.14,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-17",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      85
+    ]
+  },
+  {
+    "account_id": "ACC_000085",
+    "customer_id": "CUST_00061",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-05-04",
+    "close_date": null,
+    "branch_code": "BR140",
+    "branch_city": "Kolkata",
+    "current_balance": 91764.26,
+    "avg_monthly_balance_6m": 78027.33,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-16",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      86
+    ]
+  },
+  {
+    "account_id": "ACC_000086",
+    "customer_id": "CUST_00062",
+    "account_type": "CREDIT_CARD",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2020-08-14",
+    "close_date": null,
+    "branch_code": "BR107",
+    "branch_city": "Pune",
+    "current_balance": 29536.78,
+    "avg_monthly_balance_6m": 24618.78,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 81.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-09",
+    "avg_monthly_txn_count": 12.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      87
+    ]
+  },
+  {
+    "account_id": "ACC_000087",
+    "customer_id": "CUST_00063",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-09-18",
+    "close_date": null,
+    "branch_code": "BR128",
+    "branch_city": "Noida",
+    "current_balance": 71445.24,
+    "avg_monthly_balance_6m": 84824.59,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-07",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      88
+    ]
+  },
+  {
+    "account_id": "ACC_000088",
+    "customer_id": "CUST_00063",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2018-10-29",
+    "close_date": null,
+    "branch_code": "BR102",
+    "branch_city": "Noida",
+    "current_balance": 30514.63,
+    "avg_monthly_balance_6m": 39312.71,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 6,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-22",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      89
+    ]
+  },
+  {
+    "account_id": "ACC_000089",
+    "customer_id": "CUST_00063",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-08-11",
+    "close_date": null,
+    "branch_code": "BR134",
+    "branch_city": "Noida",
+    "current_balance": 114151.84,
+    "avg_monthly_balance_6m": 125294.02,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-13",
+    "avg_monthly_txn_count": 6.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      90
+    ]
+  },
+  {
+    "account_id": "ACC_000090",
+    "customer_id": "CUST_00064",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-11-21",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Chandigarh",
+    "current_balance": 11807.63,
+    "avg_monthly_balance_6m": 12848.21,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-24",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      91
+    ]
+  },
+  {
+    "account_id": "ACC_000091",
+    "customer_id": "CUST_00065",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-07-30",
+    "close_date": null,
+    "branch_code": "BR138",
+    "branch_city": "Mumbai",
+    "current_balance": 36156.17,
+    "avg_monthly_balance_6m": 49416.08,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-08-14",
+    "avg_monthly_txn_count": 8.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      92
+    ]
+  },
+  {
+    "account_id": "ACC_000092",
+    "customer_id": "CUST_00066",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2019-04-23",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": null,
+    "current_balance": 92491.62,
+    "avg_monthly_balance_6m": 118760.49,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-24",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "account_status:missing",
+      "branch_city:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      93
+    ]
+  },
+  {
+    "account_id": "ACC_000093",
+    "customer_id": "CUST_00066",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-04-30",
+    "close_date": null,
+    "branch_code": "BR103",
+    "branch_city": "Ahmedabad",
+    "current_balance": 415991.1,
+    "avg_monthly_balance_6m": 585095.59,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-10",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      94
+    ]
+  },
+  {
+    "account_id": "ACC_000094",
+    "customer_id": "CUST_00067",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-12-29",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Pune",
+    "current_balance": 5269.19,
+    "avg_monthly_balance_6m": 4012.71,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 61.6,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-08-13",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      95
+    ]
+  },
+  {
+    "account_id": "ACC_000095",
+    "customer_id": "CUST_00068",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-03-06",
+    "close_date": null,
+    "branch_code": "BR132",
+    "branch_city": null,
+    "current_balance": 37965.9,
+    "avg_monthly_balance_6m": 51869.06,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-15",
+    "avg_monthly_txn_count": 34.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      96
+    ]
+  },
+  {
+    "account_id": "ACC_000096",
+    "customer_id": "CUST_00069",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-12-25",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Kolkata",
+    "current_balance": 32244.78,
+    "avg_monthly_balance_6m": 24026.51,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      97
+    ]
+  },
+  {
+    "account_id": "ACC_000097",
+    "customer_id": "CUST_00069",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-04-02",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": "Kolkata",
+    "current_balance": 254293.15,
+    "avg_monthly_balance_6m": 252031.67,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-30",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "account_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      98
+    ]
+  },
+  {
+    "account_id": "ACC_000098",
+    "customer_id": "CUST_00070",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-12-28",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Chennai",
+    "current_balance": 64530.4,
+    "avg_monthly_balance_6m": 66713.32,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-28",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "account_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      99
+    ]
+  },
+  {
+    "account_id": "ACC_000099",
+    "customer_id": "CUST_00071",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-06-05",
+    "close_date": null,
+    "branch_code": "BR112",
+    "branch_city": "Mysuru",
+    "current_balance": 20684.04,
+    "avg_monthly_balance_6m": 17123.61,
+    "credit_limit": 1000000.0,
+    "credit_utilization_pct": 84.7,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-17",
+    "avg_monthly_txn_count": 29.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      100
+    ]
+  },
+  {
+    "account_id": "ACC_000100",
+    "customer_id": "CUST_00072",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-09-02",
+    "close_date": null,
+    "branch_code": "BR106",
+    "branch_city": "Chennai",
+    "current_balance": 51412.65,
+    "avg_monthly_balance_6m": 45725.36,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-17",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      101
+    ]
+  },
+  {
+    "account_id": "ACC_000101",
+    "customer_id": "CUST_00072",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-07-13",
+    "close_date": null,
+    "branch_code": "BR109",
+    "branch_city": "Chennai",
+    "current_balance": 57494.69,
+    "avg_monthly_balance_6m": 85652.34,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-13",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      102
+    ]
+  },
+  {
+    "account_id": "ACC_000102",
+    "customer_id": "CUST_00073",
+    "account_type": "CURRENT",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2020-10-17",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Chennai",
+    "current_balance": 17563.75,
+    "avg_monthly_balance_6m": 11330.31,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-25",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      103
+    ]
+  },
+  {
+    "account_id": "ACC_000103",
+    "customer_id": "CUST_00074",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-11-13",
+    "close_date": null,
+    "branch_code": "BR118",
+    "branch_city": "Ahmedabad",
+    "current_balance": 72186.68,
+    "avg_monthly_balance_6m": 57082.28,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-06",
+    "avg_monthly_txn_count": 9.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      104
+    ]
+  },
+  {
+    "account_id": "ACC_000104",
+    "customer_id": "CUST_00075",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-05-01",
+    "close_date": null,
+    "branch_code": "BR138",
+    "branch_city": "Bengaluru",
+    "current_balance": 19108.94,
+    "avg_monthly_balance_6m": 12532.73,
+    "credit_limit": 50000.0,
+    "credit_utilization_pct": 67.6,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-07",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      105
+    ]
+  },
+  {
+    "account_id": "ACC_000105",
+    "customer_id": "CUST_00076",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-07-08",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Jaipur",
+    "current_balance": 26137.77,
+    "avg_monthly_balance_6m": 24925.88,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      106
+    ]
+  },
+  {
+    "account_id": "ACC_000106",
+    "customer_id": "CUST_00076",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2022-12-05",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Jaipur",
+    "current_balance": 8034.84,
+    "avg_monthly_balance_6m": 8239.77,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-07",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      107
+    ]
+  },
+  {
+    "account_id": "ACC_000107",
+    "customer_id": "CUST_00077",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-05-08",
+    "close_date": null,
+    "branch_code": "BR138",
+    "branch_city": null,
+    "current_balance": 34405.26,
+    "avg_monthly_balance_6m": 21889.6,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-06",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      108
+    ]
+  },
+  {
+    "account_id": "ACC_000108",
+    "customer_id": "CUST_00077",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-10-18",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Indore",
+    "current_balance": 53772.47,
+    "avg_monthly_balance_6m": 78119.68,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      109
+    ]
+  },
+  {
+    "account_id": "ACC_000109",
+    "customer_id": "CUST_00078",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-07-03",
+    "close_date": null,
+    "branch_code": "BR104",
+    "branch_city": "Chandigarh",
+    "current_balance": 60585.07,
+    "avg_monthly_balance_6m": 64101.47,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-31",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      110
+    ]
+  },
+  {
+    "account_id": "ACC_000110",
+    "customer_id": "CUST_00078",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-08-14",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Chandigarh",
+    "current_balance": 53754.49,
+    "avg_monthly_balance_6m": 38339.12,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-09-07",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      111
+    ]
+  },
+  {
+    "account_id": "ACC_000111",
+    "customer_id": "CUST_00078",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-01-27",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Chandigarh",
+    "current_balance": 21683.48,
+    "avg_monthly_balance_6m": 25946.86,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-25",
+    "avg_monthly_txn_count": 10.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      112
+    ]
+  },
+  {
+    "account_id": "ACC_000112",
+    "customer_id": "CUST_00079",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-07-09",
+    "close_date": null,
+    "branch_code": "BR136",
+    "branch_city": "Hyderabad",
+    "current_balance": 126717.69,
+    "avg_monthly_balance_6m": 164775.61,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-01",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      113
+    ]
+  },
+  {
+    "account_id": "ACC_000113",
+    "customer_id": "CUST_00080",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-02-09",
+    "close_date": null,
+    "branch_code": "BR139",
+    "branch_city": "Bengaluru",
+    "current_balance": 19558.76,
+    "avg_monthly_balance_6m": 14175.97,
+    "credit_limit": 50000.0,
+    "credit_utilization_pct": 61.1,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-26",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      114
+    ]
+  },
+  {
+    "account_id": "ACC_000114",
+    "customer_id": "CUST_00081",
+    "account_type": "SAVINGS",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2022-01-10",
+    "close_date": null,
+    "branch_code": "BR103",
+    "branch_city": "Chennai",
+    "current_balance": 114285.72,
+    "avg_monthly_balance_6m": 124328.13,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-17",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      115
+    ]
+  },
+  {
+    "account_id": "ACC_000115",
+    "customer_id": "CUST_00081",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-11-01",
+    "close_date": null,
+    "branch_code": "BR131",
+    "branch_city": "Chennai",
+    "current_balance": 202519.27,
+    "avg_monthly_balance_6m": 299427.89,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      116
+    ]
+  },
+  {
+    "account_id": "ACC_000116",
+    "customer_id": "CUST_00082",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-05-16",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Mumbai",
+    "current_balance": 82470.65,
+    "avg_monthly_balance_6m": 94775.66,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-11",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      117
+    ]
+  },
+  {
+    "account_id": "ACC_000117",
+    "customer_id": "CUST_00082",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-05-12",
+    "close_date": null,
+    "branch_code": "BR106",
+    "branch_city": "Mumbai",
+    "current_balance": 154842.05,
+    "avg_monthly_balance_6m": 181007.61,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-17",
+    "avg_monthly_txn_count": 17.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      118
+    ]
+  },
+  {
+    "account_id": "ACC_000118",
+    "customer_id": "CUST_00083",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-08-16",
+    "close_date": null,
+    "branch_code": "BR116",
+    "branch_city": "Bengaluru",
+    "current_balance": 83283.46,
+    "avg_monthly_balance_6m": 113181.44,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": true,
+    "num_linked_devices": 6,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-22",
+    "avg_monthly_txn_count": 35.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      119
+    ]
+  },
+  {
+    "account_id": "ACC_000119",
+    "customer_id": "CUST_00084",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-03-23",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Chandigarh",
+    "current_balance": 29142.45,
+    "avg_monthly_balance_6m": 25073.82,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-20",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_code:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      120
+    ]
+  },
+  {
+    "account_id": "ACC_000120",
+    "customer_id": "CUST_00084",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-09-20",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Chandigarh",
+    "current_balance": 94253.02,
+    "avg_monthly_balance_6m": 125775.98,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-13",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      121
+    ]
+  },
+  {
+    "account_id": "ACC_000121",
+    "customer_id": "CUST_00085",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-04-28",
+    "close_date": null,
+    "branch_code": "BR138",
+    "branch_city": "Pune",
+    "current_balance": 15005.7,
+    "avg_monthly_balance_6m": 19773.91,
+    "credit_limit": 200000.0,
+    "credit_utilization_pct": 75.8,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-22",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      122
+    ]
+  },
+  {
+    "account_id": "ACC_000122",
+    "customer_id": "CUST_00086",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-01-08",
+    "close_date": null,
+    "branch_code": "BR115",
+    "branch_city": "Kochi",
+    "current_balance": 11307.8,
+    "avg_monthly_balance_6m": 10754.35,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": null,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-27",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      123
+    ]
+  },
+  {
+    "account_id": "ACC_000123",
+    "customer_id": "CUST_00087",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-01-11",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Ahmedabad",
+    "current_balance": 24120.96,
+    "avg_monthly_balance_6m": 27924.88,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-09",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      124
+    ]
+  },
+  {
+    "account_id": "ACC_000124",
+    "customer_id": "CUST_00087",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-07-02",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Ahmedabad",
+    "current_balance": 10862.37,
+    "avg_monthly_balance_6m": 9163.16,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-27",
+    "avg_monthly_txn_count": 8.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      125
+    ]
+  },
+  {
+    "account_id": "ACC_000125",
+    "customer_id": "CUST_00088",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-02-11",
+    "close_date": null,
+    "branch_code": "BR140",
+    "branch_city": "Ahmedabad",
+    "current_balance": 91972.65,
+    "avg_monthly_balance_6m": 90238.58,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-17",
+    "avg_monthly_txn_count": 23.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      126
+    ]
+  },
+  {
+    "account_id": "ACC_000126",
+    "customer_id": "CUST_00088",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2026-08-16",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": "Ahmedabad",
+    "current_balance": 28307.35,
+    "avg_monthly_balance_6m": 42446.29,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-02",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing",
+      "last_login_date:before_open_date"
+    ],
+    "source_rows": [
+      127
+    ]
+  },
+  {
+    "account_id": "ACC_000127",
+    "customer_id": "CUST_00088",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-04-28",
+    "close_date": null,
+    "branch_code": "BR137",
+    "branch_city": "Ahmedabad",
+    "current_balance": 122715.42,
+    "avg_monthly_balance_6m": 108786.45,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-28",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      128
+    ]
+  },
+  {
+    "account_id": "ACC_000128",
+    "customer_id": "CUST_00089",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-01-14",
+    "close_date": null,
+    "branch_code": "BR125",
+    "branch_city": "Jaipur",
+    "current_balance": 85739.39,
+    "avg_monthly_balance_6m": 78709.1,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-28",
+    "avg_monthly_txn_count": 35.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      129
+    ]
+  },
+  {
+    "account_id": "ACC_000129",
+    "customer_id": "CUST_00089",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-07-24",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Jaipur",
+    "current_balance": 42060.58,
+    "avg_monthly_balance_6m": 43832.66,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-06",
+    "avg_monthly_txn_count": 22.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      130
+    ]
+  },
+  {
+    "account_id": "ACC_000130",
+    "customer_id": "CUST_00089",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-08-01",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Jaipur",
+    "current_balance": 148997.61,
+    "avg_monthly_balance_6m": 109986.01,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-20",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      131
+    ]
+  },
+  {
+    "account_id": "ACC_000131",
+    "customer_id": "CUST_00090",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-07-16",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Hyderabad",
+    "current_balance": 76225.37,
+    "avg_monthly_balance_6m": 75667.78,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 19.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      132
+    ]
+  },
+  {
+    "account_id": "ACC_000132",
+    "customer_id": "CUST_00091",
+    "account_type": "SALARY",
+    "account_status": "CLOSED",
+    "currency": "INR",
+    "open_date": "2019-01-10",
+    "close_date": "2024-01-30",
+    "branch_code": "BR109",
+    "branch_city": "Kochi",
+    "current_balance": 35493.19,
+    "avg_monthly_balance_6m": 26662.51,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-14",
+    "avg_monthly_txn_count": 3.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing"
+    ],
+    "source_rows": [
+      133
+    ]
+  },
+  {
+    "account_id": "ACC_000133",
+    "customer_id": "CUST_00092",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-02-09",
+    "close_date": null,
+    "branch_code": "BR140",
+    "branch_city": "Chennai",
+    "current_balance": 10335.86,
+    "avg_monthly_balance_6m": 11214.9,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": null,
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-06-20",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      134
+    ]
+  },
+  {
+    "account_id": "ACC_000134",
+    "customer_id": "CUST_00092",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-12-20",
+    "close_date": null,
+    "branch_code": "BR118",
+    "branch_city": null,
+    "current_balance": 73700.23,
+    "avg_monthly_balance_6m": 61296.98,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-17",
+    "avg_monthly_txn_count": 2.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      135
+    ]
+  },
+  {
+    "account_id": "ACC_000135",
+    "customer_id": "CUST_00093",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-05-18",
+    "close_date": null,
+    "branch_code": "BR107",
+    "branch_city": "Mysuru",
+    "current_balance": 4687.98,
+    "avg_monthly_balance_6m": 3691.98,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-23",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      136
+    ]
+  },
+  {
+    "account_id": "ACC_000136",
+    "customer_id": "CUST_00093",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-05-30",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Mysuru",
+    "current_balance": 20097.0,
+    "avg_monthly_balance_6m": 15229.75,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-07-22",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      137
+    ]
+  },
+  {
+    "account_id": "ACC_000137",
+    "customer_id": "CUST_00094",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-03-12",
+    "close_date": null,
+    "branch_code": "BR129",
+    "branch_city": "Indore",
+    "current_balance": 189280.79,
+    "avg_monthly_balance_6m": 180503.15,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 11.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      138
+    ]
+  },
+  {
+    "account_id": "ACC_000138",
+    "customer_id": "CUST_00094",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-08-20",
+    "close_date": null,
+    "branch_code": "BR128",
+    "branch_city": "Indore",
+    "current_balance": 72839.75,
+    "avg_monthly_balance_6m": 62654.95,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-30",
+    "avg_monthly_txn_count": 38.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      139
+    ]
+  },
+  {
+    "account_id": "ACC_000139",
+    "customer_id": "CUST_00094",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-04-03",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Indore",
+    "current_balance": 69729.39,
+    "avg_monthly_balance_6m": 44941.52,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-02",
+    "avg_monthly_txn_count": 13.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      140
+    ]
+  },
+  {
+    "account_id": "ACC_000140",
+    "customer_id": "CUST_00095",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-10-12",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Hyderabad",
+    "current_balance": 57427.02,
+    "avg_monthly_balance_6m": 77179.06,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-27",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      141
+    ]
+  },
+  {
+    "account_id": "ACC_000141",
+    "customer_id": "CUST_00096",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2026-02-19",
+    "close_date": null,
+    "branch_code": "BR128",
+    "branch_city": "Indore",
+    "current_balance": 13073.83,
+    "avg_monthly_balance_6m": 14481.69,
+    "credit_limit": 50000.0,
+    "credit_utilization_pct": 47.0,
+    "overdraft_enabled": false,
+    "card_type": "SIGNATURE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-17",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      142
+    ]
+  },
+  {
+    "account_id": "ACC_000142",
+    "customer_id": "CUST_00096",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-12-14",
+    "close_date": null,
+    "branch_code": "BR120",
+    "branch_city": "Indore",
+    "current_balance": 12432.37,
+    "avg_monthly_balance_6m": 17468.23,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-01",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      143
+    ]
+  },
+  {
+    "account_id": "ACC_000143",
+    "customer_id": "CUST_00097",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-07-13",
+    "close_date": null,
+    "branch_code": "BR122",
+    "branch_city": "Noida",
+    "current_balance": 323995.77,
+    "avg_monthly_balance_6m": 333224.01,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-23",
+    "avg_monthly_txn_count": 39.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      144
+    ]
+  },
+  {
+    "account_id": "ACC_000144",
+    "customer_id": "CUST_00097",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2026-01-07",
+    "close_date": null,
+    "branch_code": "BR108",
+    "branch_city": "Noida",
+    "current_balance": 476546.64,
+    "avg_monthly_balance_6m": 369770.58,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 45.6,
+    "overdraft_enabled": true,
+    "card_type": "SIGNATURE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-11",
+    "avg_monthly_txn_count": 12.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      145
+    ]
+  },
+  {
+    "account_id": "ACC_000145",
+    "customer_id": "CUST_00098",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-03-13",
+    "close_date": null,
+    "branch_code": "BR115",
+    "branch_city": null,
+    "current_balance": 13759.43,
+    "avg_monthly_balance_6m": 13490.58,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-23",
+    "avg_monthly_txn_count": 21.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      146
+    ]
+  },
+  {
+    "account_id": "ACC_000146",
+    "customer_id": "CUST_00099",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-08-28",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Chandigarh",
+    "current_balance": 68865.36,
+    "avg_monthly_balance_6m": 61177.06,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-09-09",
+    "avg_monthly_txn_count": 42.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      147
+    ]
+  },
+  {
+    "account_id": "ACC_000147",
+    "customer_id": "CUST_00100",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2020-10-17",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Delhi",
+    "current_balance": 83783.02,
+    "avg_monthly_balance_6m": 96303.26,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "account_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      148
+    ]
+  },
+  {
+    "account_id": "ACC_000148",
+    "customer_id": "CUST_00100",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-01-06",
+    "close_date": null,
+    "branch_code": "BR138",
+    "branch_city": "Delhi",
+    "current_balance": 5893.99,
+    "avg_monthly_balance_6m": 4106.12,
+    "credit_limit": 500000.0,
+    "credit_utilization_pct": 52.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-09",
+    "avg_monthly_txn_count": 2.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      149
+    ]
+  },
+  {
+    "account_id": "ACC_000149",
+    "customer_id": "CUST_00101",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-09-03",
+    "close_date": null,
+    "branch_code": "BR111",
+    "branch_city": "Mysuru",
+    "current_balance": 14044.95,
+    "avg_monthly_balance_6m": 19201.48,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-30",
+    "avg_monthly_txn_count": 26.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      150
+    ]
+  },
+  {
+    "account_id": "ACC_000150",
+    "customer_id": "CUST_00101",
+    "account_type": "NRE",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-09-09",
+    "close_date": null,
+    "branch_code": "BR103",
+    "branch_city": "Mysuru",
+    "current_balance": 79354.81,
+    "avg_monthly_balance_6m": 115364.51,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-03",
+    "avg_monthly_txn_count": 11.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      151
+    ]
+  },
+  {
+    "account_id": "ACC_000151",
+    "customer_id": "CUST_00101",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-06-30",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": "Mysuru",
+    "current_balance": 14187.63,
+    "avg_monthly_balance_6m": 14816.22,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": false,
+    "last_login_date": "2026-07-07",
+    "avg_monthly_txn_count": 14.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      152
+    ]
+  },
+  {
+    "account_id": "ACC_000152",
+    "customer_id": "CUST_00102",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-05-16",
+    "close_date": null,
+    "branch_code": "BR108",
+    "branch_city": "Pune",
+    "current_balance": 36440.98,
+    "avg_monthly_balance_6m": 32395.2,
+    "credit_limit": 1000000.0,
+    "credit_utilization_pct": 39.4,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": true,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-06",
+    "avg_monthly_txn_count": 35.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "account_type:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      153
+    ]
+  },
+  {
+    "account_id": "ACC_000153",
+    "customer_id": "CUST_00102",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-09-11",
+    "close_date": null,
+    "branch_code": "BR106",
+    "branch_city": "Pune",
+    "current_balance": 112286.1,
+    "avg_monthly_balance_6m": 126927.98,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-25",
+    "avg_monthly_txn_count": 31.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      154
+    ]
+  },
+  {
+    "account_id": "ACC_000154",
+    "customer_id": "CUST_00103",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-06-11",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Kochi",
+    "current_balance": 46359.61,
+    "avg_monthly_balance_6m": 66483.97,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-07",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      155
+    ]
+  },
+  {
+    "account_id": "ACC_000155",
+    "customer_id": "CUST_00103",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-04-06",
+    "close_date": null,
+    "branch_code": "BR131",
+    "branch_city": "Kochi",
+    "current_balance": 170776.21,
+    "avg_monthly_balance_6m": 173446.49,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-18",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      156
+    ]
+  },
+  {
+    "account_id": "ACC_000156",
+    "customer_id": "CUST_00104",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-03-01",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Pune",
+    "current_balance": 80295.23,
+    "avg_monthly_balance_6m": 55016.35,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-21",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      157
+    ]
+  },
+  {
+    "account_id": "ACC_000157",
+    "customer_id": "CUST_00105",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2019-06-30",
+    "close_date": null,
+    "branch_code": "BR127",
+    "branch_city": "Gurugram",
+    "current_balance": 3685.53,
+    "avg_monthly_balance_6m": 2922.93,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-10",
+    "avg_monthly_txn_count": 14.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      158
+    ]
+  },
+  {
+    "account_id": "ACC_000158",
+    "customer_id": "CUST_00106",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-12-10",
+    "close_date": null,
+    "branch_code": "BR133",
+    "branch_city": "Bengaluru",
+    "current_balance": 188893.87,
+    "avg_monthly_balance_6m": 214896.07,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-22",
+    "avg_monthly_txn_count": 35.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      159
+    ]
+  },
+  {
+    "account_id": "ACC_000159",
+    "customer_id": "CUST_00107",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2022-08-22",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Indore",
+    "current_balance": 26693.35,
+    "avg_monthly_balance_6m": 38211.8,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-30",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      160
+    ]
+  },
+  {
+    "account_id": "ACC_000160",
+    "customer_id": "CUST_00108",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-07-27",
+    "close_date": null,
+    "branch_code": "BR101",
+    "branch_city": "Chandigarh",
+    "current_balance": 340182.34,
+    "avg_monthly_balance_6m": 376378.15,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-22",
+    "avg_monthly_txn_count": 32.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      161
+    ]
+  },
+  {
+    "account_id": "ACC_000161",
+    "customer_id": "CUST_00108",
+    "account_type": "SAVINGS",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2019-10-03",
+    "close_date": null,
+    "branch_code": "BR136",
+    "branch_city": "Chandigarh",
+    "current_balance": 11221.87,
+    "avg_monthly_balance_6m": 11746.78,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "PLATINUM",
+    "is_joint_account": true,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 24.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      162
+    ]
+  },
+  {
+    "account_id": "ACC_000162",
+    "customer_id": "CUST_00109",
+    "account_type": "SALARY",
+    "account_status": "DORMANT",
+    "currency": "INR",
+    "open_date": "2019-12-07",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Chennai",
+    "current_balance": 14010.63,
+    "avg_monthly_balance_6m": 19487.21,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-02",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      163
+    ]
+  },
+  {
+    "account_id": "ACC_000163",
+    "customer_id": "CUST_00110",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2026-06-03",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Coimbatore",
+    "current_balance": 57520.08,
+    "avg_monthly_balance_6m": 60219.58,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-11",
+    "avg_monthly_txn_count": 13.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      164
+    ]
+  },
+  {
+    "account_id": "ACC_000164",
+    "customer_id": "CUST_00111",
+    "account_type": "CREDIT_CARD",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2016-07-11",
+    "close_date": null,
+    "branch_code": "BR118",
+    "branch_city": "Ahmedabad",
+    "current_balance": 109530.02,
+    "avg_monthly_balance_6m": 102631.55,
+    "credit_limit": 100000.0,
+    "credit_utilization_pct": 34.1,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-06",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      165
+    ]
+  },
+  {
+    "account_id": "ACC_000165",
+    "customer_id": "CUST_00111",
+    "account_type": "CURRENT",
+    "account_status": null,
+    "currency": "INR",
+    "open_date": "2023-06-22",
+    "close_date": null,
+    "branch_code": "BR107",
+    "branch_city": "Ahmedabad",
+    "current_balance": 205723.86,
+    "avg_monthly_balance_6m": 227932.45,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-24",
+    "avg_monthly_txn_count": 18.0,
+    "account_tier": "PLATINUM",
+    "quality_flags": [
+      "account_status:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      166
+    ]
+  },
+  {
+    "account_id": "ACC_000166",
+    "customer_id": "CUST_00112",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2024-01-30",
+    "close_date": null,
+    "branch_code": "BR130",
+    "branch_city": "Hyderabad",
+    "current_balance": 19039.0,
+    "avg_monthly_balance_6m": 25041.53,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-08",
+    "avg_monthly_txn_count": 38.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      167
+    ]
+  },
+  {
+    "account_id": "ACC_000167",
+    "customer_id": "CUST_00113",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-03-14",
+    "close_date": null,
+    "branch_code": "BR128",
+    "branch_city": "Mysuru",
+    "current_balance": 80573.5,
+    "avg_monthly_balance_6m": 86085.68,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 3,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-24",
+    "avg_monthly_txn_count": 16.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      168
+    ]
+  },
+  {
+    "account_id": "ACC_000168",
+    "customer_id": "CUST_00114",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-01-09",
+    "close_date": null,
+    "branch_code": null,
+    "branch_city": "Coimbatore",
+    "current_balance": 44023.96,
+    "avg_monthly_balance_6m": 50928.82,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-06-03",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "branch_code:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      169
+    ]
+  },
+  {
+    "account_id": "ACC_000169",
+    "customer_id": "CUST_00115",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-02-25",
+    "close_date": null,
+    "branch_code": "BR131",
+    "branch_city": "Indore",
+    "current_balance": 51528.17,
+    "avg_monthly_balance_6m": 40856.36,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "NONE",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-03",
+    "avg_monthly_txn_count": 28.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      170
+    ]
+  },
+  {
+    "account_id": "ACC_000170",
+    "customer_id": "CUST_00115",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2025-07-08",
+    "close_date": null,
+    "branch_code": "BR102",
+    "branch_city": "Indore",
+    "current_balance": 7303.1,
+    "avg_monthly_balance_6m": 5018.17,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "SIGNATURE",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-09",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      171
+    ]
+  },
+  {
+    "account_id": "ACC_000171",
+    "customer_id": "CUST_00116",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-01-18",
+    "close_date": null,
+    "branch_code": "BR135",
+    "branch_city": null,
+    "current_balance": 80154.88,
+    "avg_monthly_balance_6m": 93846.21,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": null,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-09",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      172
+    ]
+  },
+  {
+    "account_id": "ACC_000172",
+    "customer_id": "CUST_00117",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2017-11-22",
+    "close_date": null,
+    "branch_code": "BR109",
+    "branch_city": null,
+    "current_balance": 6865.49,
+    "avg_monthly_balance_6m": 10258.33,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 2,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-07-11",
+    "avg_monthly_txn_count": 15.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "branch_city:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      173
+    ]
+  },
+  {
+    "account_id": "ACC_000173",
+    "customer_id": "CUST_00118",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-01-31",
+    "close_date": null,
+    "branch_code": "BR119",
+    "branch_city": "Chennai",
+    "current_balance": 130296.29,
+    "avg_monthly_balance_6m": 184068.3,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": null,
+    "card_type": "PLATINUM",
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-15",
+    "avg_monthly_txn_count": 27.0,
+    "account_tier": "GOLD",
+    "quality_flags": [
+      "close_date:missing",
+      "overdraft_enabled:missing"
+    ],
+    "source_rows": [
+      174
+    ]
+  },
+  {
+    "account_id": "ACC_000174",
+    "customer_id": "CUST_00118",
+    "account_type": null,
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2022-08-17",
+    "close_date": null,
+    "branch_code": "BR116",
+    "branch_city": "Chennai",
+    "current_balance": 17863.86,
+    "avg_monthly_balance_6m": 12607.49,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-09-16",
+    "avg_monthly_txn_count": 39.0,
+    "account_tier": null,
+    "quality_flags": [
+      "account_tier:missing",
+      "account_type:missing",
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      175
+    ]
+  },
+  {
+    "account_id": "ACC_000175",
+    "customer_id": "CUST_00119",
+    "account_type": "SAVINGS",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2021-11-28",
+    "close_date": null,
+    "branch_code": "BR121",
+    "branch_city": "Jaipur",
+    "current_balance": 77794.81,
+    "avg_monthly_balance_6m": 84127.96,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "CLASSIC",
+    "is_joint_account": true,
+    "num_linked_devices": 4,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-06",
+    "avg_monthly_txn_count": 30.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      176
+    ]
+  },
+  {
+    "account_id": "ACC_000176",
+    "customer_id": "CUST_00119",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-04-11",
+    "close_date": null,
+    "branch_code": "BR105",
+    "branch_city": "Jaipur",
+    "current_balance": 10747.0,
+    "avg_monthly_balance_6m": 9452.94,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": null,
+    "is_joint_account": false,
+    "num_linked_devices": 1,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-21",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "card_type:missing",
+      "close_date:missing"
+    ],
+    "source_rows": [
+      177
+    ]
+  },
+  {
+    "account_id": "ACC_000177",
+    "customer_id": "CUST_00120",
+    "account_type": "CURRENT",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2023-07-27",
+    "close_date": null,
+    "branch_code": "BR114",
+    "branch_city": "Pune",
+    "current_balance": 25636.72,
+    "avg_monthly_balance_6m": 17557.5,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": true,
+    "card_type": "CLASSIC",
+    "is_joint_account": false,
+    "num_linked_devices": 7,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-08-09",
+    "avg_monthly_txn_count": 25.0,
+    "account_tier": "BASIC",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      178
+    ]
+  },
+  {
+    "account_id": "ACC_000178",
+    "customer_id": "CUST_00120",
+    "account_type": "SALARY",
+    "account_status": "ACTIVE",
+    "currency": "INR",
+    "open_date": "2018-01-26",
+    "close_date": null,
+    "branch_code": "BR134",
+    "branch_city": "Pune",
+    "current_balance": 116603.87,
+    "avg_monthly_balance_6m": 126998.64,
+    "credit_limit": 0.0,
+    "credit_utilization_pct": 0.0,
+    "overdraft_enabled": false,
+    "card_type": "GOLD",
+    "is_joint_account": false,
+    "num_linked_devices": 5,
+    "mobile_banking_enrolled": true,
+    "last_login_date": "2026-05-22",
+    "avg_monthly_txn_count": 20.0,
+    "account_tier": "SILVER",
+    "quality_flags": [
+      "close_date:missing"
+    ],
+    "source_rows": [
+      179
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "rows": 1000,
+  "unique_transactions": 988,
+  "fraud_predictions": 398,
+  "all_notebook_cells_executed": true,
+  "no_notebook_errors": true,
+  "exact_schema_valid": true,
+  "input_order_preserved": true,
+  "duplicate_predictions_consistent": true,
+  "adapter_reload_verified": true,
+  "presentation_slides": 15,
+  "metadata_cleaning_verified": true
+}

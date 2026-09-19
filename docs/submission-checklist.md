@@ -8,7 +8,7 @@
 - All 178 accounts and 124 customers were retained in typed cleaned exports.
 - Nineteen CPU regression tests passed, including five prompt-boundary tests with multiple payload variants.
 - The public executed-results notebook contains aggregate training and evaluation output; private paths and individual transaction examples are omitted.
-- Raw data, model weights, adapters, generated private outputs, and submission ZIPs remain excluded from Git.
+- The user confirmed the inputs are dummy hackathon data and authorized publication. Original CSVs, a trained adapter, and recorded outputs are now published in data/raw and artifacts/checkpoint-1. Frozen base weights remain a pinned external download.
 
 ## What a reviewer can open
 

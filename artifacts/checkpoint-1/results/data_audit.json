@@ -1,0 +1,83 @@
+{
+  "sha256": {
+    "transactions.csv": "aa8872a13701606c3b86e8a59343735242c37dc8679d68e9dc33896c3f828671",
+    "accounts.csv": "fa03dbe2bde12e2b3e462a8dab734d93e08b641477b0627c3764395089a10261",
+    "customers.csv": "2b7aae15339ffaa360add127741209a5bafba96b8c77ab610f5521a4b0d61101"
+  },
+  "rows": {
+    "transactions.csv": 1000,
+    "accounts.csv": 178,
+    "customers.csv": 124
+  },
+  "dimension_duplicates": {
+    "accounts": 0,
+    "customers": 0
+  },
+  "limitations": [
+    "No true fraud labels",
+    "Historical aggregate provenance unverified",
+    "Confidence is uncalibrated model preference, not fraud probability"
+  ],
+  "metadata_cleaning": {
+    "accounts": {
+      "input_rows": 178,
+      "selected_rows": 178,
+      "quarantined_rows": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_conflict_groups": 0,
+      "field_issue_counts": {
+        "account_status:missing": 11,
+        "account_tier:missing": 8,
+        "account_type:missing": 6,
+        "branch_city:missing": 14,
+        "branch_code:missing": 19,
+        "card_type:missing": 18,
+        "close_date:missing": 177,
+        "overdraft_enabled:missing": 6
+      },
+      "selected_rows_with_flags": 178,
+      "unmatched_customer_references": 0
+    },
+    "customers": {
+      "input_rows": 124,
+      "selected_rows": 124,
+      "quarantined_rows": 0,
+      "duplicate_extra_rows": 0,
+      "duplicate_conflict_groups": 0,
+      "field_issue_counts": {
+        "annual_income:missing": 7,
+        "customer_segment:missing": 3,
+        "education_level:missing": 10,
+        "employment_status:missing": 9,
+        "gender:missing": 7,
+        "kyc_status:missing": 6,
+        "marital_status:missing": 18,
+        "occupation:missing": 12,
+        "phone_number:missing": 3,
+        "preferred_channel:missing": 14,
+        "risk_rating:missing": 18
+      },
+      "selected_rows_with_flags": 69
+    }
+  },
+  "exact_transaction_duplicates": 12,
+  "null_features": {
+    "amount": 27,
+    "hour": 75,
+    "new_device": 0,
+    "foreign": 0,
+    "card_present": 0,
+    "distance_km": 0,
+    "minutes_since_previous": 154,
+    "count_24h": 0,
+    "amount_ratio": 154,
+    "account_unmatched": 0,
+    "customer_unmatched": 0,
+    "ownership_conflict": 0
+  },
+  "relationship_flags": {
+    "account_unmatched": 8,
+    "customer_unmatched": 8,
+    "ownership_conflict": 0
+  }
+}
