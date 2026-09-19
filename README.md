@@ -7,6 +7,7 @@ Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The worki
 ## What works today
 
 - Joins transactions, accounts, and customers while tracking missing links and duplicates.
+- Cleans all supplied account/customer columns with typed values, quality flags, and quarantine exports.
 - Keeps raw notes and arbitrary strings out of model prompts.
 - Fine-tunes Llama-3.2-1B-Instruct with QLoRA using Apple MLX.
 - Saves and reloads adapters, then produces exactly four JSON fields per transaction.
@@ -14,11 +15,15 @@ Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The worki
 
 ## Start here
 
-- [Notebook](notebooks/fraud_sentinel.ipynb)
+- [Runnable notebook](notebooks/fraud_sentinel.ipynb)
+- [Executed notebook with visible results](notebooks/executed_results.ipynb)
 - [Presentation](docs/presentation.pptx)
 - [Recorded run](docs/results.md)
 - [Extension roadmap](docs/roadmap.md)
 - [Data strategy](docs/data-strategy.md)
+- [Metadata cleaning](docs/metadata-cleaning.md)
+- [Prompt-injection guardrail](docs/prompt-injection.md)
+- [Submission checks](docs/submission-checklist.md)
 
 ## Run on Apple Silicon
 
@@ -32,9 +37,9 @@ python scripts/create_demo_data.py --output-dir data/raw
 python scripts/train_and_predict.py
 ```
 
-The demo generator creates fictional CSVs and refuses to overwrite existing inputs. To run with the hackathon files, put `transactions.csv`, `accounts.csv`, and `customers.csv` in `data/raw/` instead. The notebook uses the same inputs; open it with the environment above and run all cells.
+The demo generator creates fictional CSVs and refuses to overwrite existing inputs. To run with the hackathon files, put `transactions.csv`, `accounts.csv`, and `customers.csv` in `data/raw/` instead. The notebook uses the same inputs. For Jupyter, run `python -m pip install jupyterlab` in that environment, then `python -m jupyter lab` from the repository root and open the notebook. The MLX backend requires Apple Silicon; GitHub displays notebooks but does not execute them.
 
-Predictions and reports appear in `outputs/`, and adapters in `adapters/llama_fraud_qlora/`. Running the pipeline again retrains from the base checkpoint and replaces generated outputs. The public notebook omits local execution output; the original executed submission remains available locally.
+Predictions and reports appear in `outputs/`, and adapters in `adapters/llama_fraud_qlora/`. Running the pipeline again retrains from the base checkpoint and replaces generated outputs. The runnable notebook has clean output cells. A separate executed-results notebook retains aggregate execution evidence without individual customer/transaction examples.
 
 ## Output
 

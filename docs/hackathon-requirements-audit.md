@@ -4,7 +4,7 @@ Audited against the problem statement supplied in the project conversation. This
 
 ## Conclusion
 
-The end-to-end baseline has run successfully and produces the required JSON. Model loading, actual fine-tuning, adapter reload, inference, and output validation are complete for the supplied files. The full claim of cleaning all account/customer metadata is not yet supported; that scope should be resolved before treating every requirement as closed and moving to extensions.
+The end-to-end baseline has run successfully and produces the required JSON. Model loading, actual fine-tuning, adapter reload, inference, and output validation are complete for the supplied files. The metadata-cleaning gap has now been closed: all supplied dimension columns are typed, audited, and exported, with corrupt-metadata regression fixtures and a complete notebook rerun.
 
 ## Requirement mapping
 
@@ -12,8 +12,8 @@ The end-to-end baseline has run successfully and produces the required JSON. Mod
 | --- | --- | --- |
 | Process all three datasets | Pass for supplied files | 1,000 transaction rows, 178 accounts, 124 customers are read |
 | Clean transaction anomalies | Pass for model inputs | Typed numeric/boolean/date parsing; unusable values become null; duplicate input rows reuse predictions |
-| Clean account/customer metadata | Partial | Whitespace normalization, missing sentinels for row completeness, duplicate resolution, and key linkage exist; most metadata fields are excluded rather than fully normalized |
-| Consolidate relational data | Pass, limited feature scope | Account owner/customer lookups produce match/conflict flags; this is not a full joined export of every source column |
+| Clean account/customer metadata | Pass for supported schema | All 21 account and 26 customer columns have typed rules, field flags, deterministic duplicate handling, quarantine, and local cleaned exports |
+| Consolidate relational data | Pass | Cleaned dimensions are linked and exported per unique transaction; only the documented safe feature subset enters model prompts |
 | Neutralize prompt injections before model context | Pass for tested boundary | Prompts contain fixed instructions and typed allowlisted features; notes, names, category text, and source IDs are excluded |
 | Use an open-weight model below 3B | Pass | Llama-3.2-1B-Instruct, public 4-bit MLX conversion; 1,235,814,400 base parameters |
 | Actually fine-tune | Pass | 120 QLoRA optimizer steps on 512 synthetic examples; 851,968 trainable parameters; adapter saved and reload verified |
@@ -37,11 +37,11 @@ Among the 988 unique transactions, the saved preprocessing audit reports 27 unus
 
 The supplied version has no notes column, no duplicate account/customer primary IDs, and no nonempty credit limits that fail the generic numeric parser used in this audit. Those observations do not prove future faulty account metadata is fully handled.
 
-## Remaining baseline work
+## Metadata checkpoint completed
 
-1. Add explicit typed cleaning and quality flags for the account/customer columns that the solution claims to support, including credit limits; export or document the cleaned dimension tables. Add fixtures for corrupt dimension metadata rather than relying only on this supplied file version.
-2. Document which relational attributes contribute to risk and which are deliberately excluded because their point-in-time provenance is unknown. Do not call existing linkage flags a complete merge of all metadata.
-3. Keep the synthetic-only training/evaluation limitation visible. Obtain genuine labels before claiming real fraud precision, recall, F1, or calibrated confidence; extended metric work remains paused for now.
+Explicit dimension cleaning, cleaned/quarantined/source-row exports, and a full nested metadata join are implemented. Nineteen CPU tests pass, including dedicated corrupt-metadata and prompt-injection fixtures. The updated notebook completes top to bottom and produces 1,000 schema-valid records. See metadata-cleaning.md for rules and exclusions.
+
+No additional data was needed for this cleaning checkpoint. Genuine fraud labels and an independent real-world benchmark remain unavailable. Extended metric work remains paused. Submission to the organizer's platform is still a separate action.
 
 ## Output behavior and portability
 

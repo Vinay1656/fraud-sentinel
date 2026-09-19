@@ -1,3 +1,4 @@
+from fraud_sentinel.metadata import clean_metadata
 from fraud_sentinel import validate_predictions
 from pathlib import Path
 import csv, json, math, random, hashlib, re, time, zipfile, platform
@@ -70,22 +71,16 @@ audit = {'sha256': {name: hashlib.sha256((DATA / name).read_bytes()).hexdigest()
          'limitations': ['No true fraud labels', 'Historical aggregate provenance unverified',
                          'Confidence is uncalibrated model preference, not fraud probability']}
 
-def dimension(rows, key):
-    result = {}
-    duplicates = 0
-    for row in rows:
-        identifier = row.get(key, '')
-        if missing(identifier):
-            continue
-        if identifier in result:
-            duplicates += 1
-        if identifier not in result or sum(not missing(value) for value in row.values()) > sum(not missing(value) for value in result[identifier].values()):
-            result[identifier] = row
-    audit['dimension_duplicates'][key] = duplicates
-    return result
-
-accounts = dimension(tables['accounts.csv'], 'account_id')
-customers = dimension(tables['customers.csv'], 'customer_id')
+metadata = clean_metadata(tables['accounts.csv'], tables['customers.csv'])
+accounts = metadata['accounts']['by_id']
+customers = metadata['customers']['by_id']
+audit['metadata_cleaning'] = {table: result['report'] for table, result in metadata.items()}
+audit['dimension_duplicates'] = {table: result['report']['duplicate_extra_rows'] for table, result in metadata.items()}
+for table, result in metadata.items():
+    (OUT / f'{table}_cleaned.json').write_text(json.dumps(list(result['by_id'].values()), indent=2, allow_nan=False))
+    (OUT / f'{table}_quarantine.json').write_text(json.dumps(result['quarantine'], indent=2, allow_nan=False))
+    (OUT / f'{table}_cleaned_source_rows.json').write_text(json.dumps(result['rows'], indent=2, allow_nan=False))
+(OUT / 'metadata_quality.json').write_text(json.dumps(audit['metadata_cleaning'], indent=2, allow_nan=False))
 transactions = tables['transactions.csv']
 unique = {}
 for row in transactions:
@@ -118,6 +113,13 @@ def features(row):
 
 identifiers = list(unique)
 feature_rows = [features(unique[identifier]) for identifier in identifiers]
+joined_metadata = []
+for identifier in identifiers:
+    transaction = unique[identifier]
+    account = accounts.get(transaction.get('account_id', ''))
+    owner = account.get('customer_id') if account else transaction.get('customer_id')
+    joined_metadata.append({'transaction_id': identifier, 'account': account, 'customer': customers.get(owner)})
+(OUT / 'consolidated_metadata.json').write_text(json.dumps(joined_metadata, indent=2, allow_nan=False))
 audit['null_features'] = {key: sum(row[key] is None for row in feature_rows) for key in feature_rows[0]}
 audit['relationship_flags'] = {key: sum(row[key] for row in feature_rows) for key in ['account_unmatched', 'customer_unmatched', 'ownership_conflict']}
 (OUT / 'consolidated_features.json').write_text(json.dumps([dict(transaction_id=identifier, **row) for identifier, row in zip(identifiers, feature_rows)], indent=2, allow_nan=False))
