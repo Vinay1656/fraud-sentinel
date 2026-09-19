@@ -24,7 +24,27 @@ Tests: `PYTHONPATH=src python -m unittest discover -s tests -v`. To additionally
 - Heatmap rates are model-flag rates, not confirmed fraud rates. Amounts are transaction amounts, not losses, and are kept separate by currency. Unknown amounts are counted, not silently imputed.
 - Inspect opens the recorded justification, typed input features, and transaction-level quality warnings. The data-quality view separately covers account/customer metadata. This is not a causal model explanation or a case-management database.
 - Download matching JSON exports all matching unique cases (not just the current page) using only the original four schema fields. Empty exports are disabled.
-- The guardrail demo displays a fixed prompt produced by the actual pipeline functions. The build tests five attacks. Browser note edits are inert text excluded from that prompt, not live Python execution or model inference. The full regression suite separately tests the pipeline boundary.
-- No customer blocking, messaging, live transactions, new model predictions, or persistent analyst decisions occur.
+- The guardrail demo lets you choose any of the 988 actual cases and displays its prompt produced by the actual pipeline functions. The build tests five example attacks; regression tests additionally verify three attacks against every unique source transaction. Browser note edits are inert text excluded from that prompt, not live Python execution or model inference.
+- No customer blocking, messaging, live transactions, or new model predictions occur. Analyst decisions now persist locally; they are not shared server-side.
 
 The analyst build additionally verifies original CSV hashes and exact prediction IDs/order. A changed dataset requires a new matching pipeline checkpoint; the dashboard refuses to combine mismatched snapshots.
+
+## Feedback capture
+
+1. Click **Inspect** beside a transaction. The page scrolls to its evidence and feedback form.
+2. Enter a reviewer alias, assessment, and reason. Optionally add a non-sensitive evidence reference.
+3. Click **Save feedback locally**. The case history appends an event; the original prediction stays unchanged. Repeating exactly the latest assessment is a no-op.
+4. Use **Export feedback JSON** to back up every event. This is separate from **Download matching JSON**, which exports original model predictions only.
+5. Import a backup on the same checkpoint to merge events. Event IDs are deduplicated; conflicting duplicate IDs, unknown transactions, bad schema, and mismatched checkpoints are rejected. Newly imported events append in file order; latest appended event means current assessment, regardless of client timestamps.
+
+Feedback records include event ID, transaction ID, reviewer, assessment, reason, evidence reference, and UTC timestamp. The envelope binds them to hashes of predictions, source transactions, and the trained adapter plus the base-model revision. Every event is explicitly `unverified_analyst_feedback` with `eligible_for_training: false`.
+
+Validate a downloaded backup without loading MLX:
+
+```sh
+python scripts/validate_feedback.py /path/to/analyst_feedback.json
+```
+
+**Limits:** localStorage belongs to this browser and origin; another device/browser, incognito session, or a downloaded HTML file may have a different store. Clearing browser data loses history. Prefer the hosted HTTPS dashboard, export backups, and do not store real personal data or secrets in notes. Reviewer names and browser-clock timestamps are self-reported; this is not an authenticated or tamper-proof audit system. It is a single-browser prototype, not an atomic multi-user database. Common stale-tab writes are rejected, but use one editing tab at a time. If storage is unavailable, corrupt, or full, the UI reports failure rather than claiming a save. Corrupt stored data is not silently overwritten. Import is capped at 20 MB and 5,000 events; browser quotas may be lower.
+
+Feedback is a foundation for future adjudicated labels—not automatic ground truth. A separate verified-outcome process and leakage-safe evaluation design are required before using these decisions for training. No retraining or precision/recall claims are added here.

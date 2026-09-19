@@ -1,5 +1,7 @@
 # Dashboard checkpoint verification
 
+This records the first dashboard checkpoint. See `FEEDBACK_CHECKPOINT.md` for the subsequent persistent-feedback extension.
+
 The smaller data-quality dashboard was tested and pushed first (`5b41e1a`), before implementing the connected analyst dashboard.
 
 ## Verified locally

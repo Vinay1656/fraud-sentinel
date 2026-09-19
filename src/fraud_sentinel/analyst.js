@@ -106,6 +106,8 @@ function showCase(row) {
   element('case-explanation').textContent = 'Recorded justification: ' + row.prediction.justification;
   element('case-warnings').textContent = 'Quality warnings: ' + (row.quality_flags.join('; ') || 'None in the typed feature snapshot.');
   element('case-features').textContent = JSON.stringify(row.features, null, 2);
+  showFeedback(row);
+  element('case-detail').scrollIntoView({block: 'start'});
 }
 function renderQueue(resetPage = true) {
   if (resetPage) pageIndex = 0;
@@ -135,6 +137,8 @@ function renderQueue(resetPage = true) {
     button.setAttribute('aria-label', 'Inspect ' + row.id);
     button.addEventListener('click', () => showCase(row));
     cell.append(button);
+    const feedback = latestFeedback(row.id);
+    if (feedback) cell.append(node('div', 'Analyst: ' + feedback.decision.replaceAll('_', ' '), 'muted'));
     output.append(cell);
     body.append(output);
   }
@@ -171,10 +175,15 @@ element('reset-filters').addEventListener('click', () => {
 });
 function demonstrateBoundary() {
   const note = element('attack-note').value;
+  const record = SNAPSHOT.records.find(row => row.id === element('guardrail-case').value);
   element('note-preview').textContent = note || '(empty note)';
-  element('prompt-preview').textContent = JSON.stringify(SNAPSHOT.guardrail.prompt, null, 2);
+  element('prompt-preview').textContent = JSON.stringify(record.prompt, null, 2);
+  element('guardrail-case-decision').textContent = record.id + ': recorded model decision = ' + (record.prediction.is_fraud ? 'flagged' : 'not flagged') + '. This recorded decision is not recomputed by the demo.';
   element('guardrail-status').textContent = note.length + ' note characters excluded. Verified prompt unchanged. This demonstration does not rescore a transaction.';
 }
 element('attack-note').addEventListener('input', demonstrateBoundary);
+for (const row of SNAPSHOT.records) element('guardrail-case').append(new Option(row.id, row.id));
+element('guardrail-case').addEventListener('change', demonstrateBoundary);
 renderAll();
+initFeedback();
 demonstrateBoundary();

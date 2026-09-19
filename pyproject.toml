@@ -13,4 +13,4 @@ dependencies = []
 where = ["src"]
 
 [tool.setuptools.package-data]
-fraud_sentinel = ["analyst.js"]
+fraud_sentinel = ["analyst.js", "feedback.js"]

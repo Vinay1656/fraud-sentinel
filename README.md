@@ -86,7 +86,7 @@ These checks run without a GPU. Model training and full inference require Apple 
 
 ## Development checkpoints
 
-The data-quality dashboard was committed first, followed by the connected analyst overview, category/channel heatmap, review queue, and guardrail demonstration. Both read the recorded checkpoint without MLX. Customer verification, persistent case workflow, timelines, and drift monitoring remain future work.
+The data-quality dashboard was committed first, followed by the connected analyst overview, category/channel heatmap, review queue, and guardrail demonstration. The latest extension adds browser-local analyst feedback with export/import and provenance, and an injection demonstration selectable across all 988 cases. Dashboards do not require MLX. Customer verification, a shared/authenticated case workflow, timelines, verified-label promotion, and drift monitoring remain future work.
 
 ## Published trained checkpoint
 
