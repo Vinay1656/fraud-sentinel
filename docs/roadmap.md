@@ -4,7 +4,7 @@
 
 Turn the working screening pipeline into a tool that helps an internal team find unusual activity, investigate it, and resolve it with the customer. The demonstration should tell one complete story: **find a sector hotspot → inspect the evidence → review related transactions → simulate customer verification → record the outcome**.
 
-The baseline pipeline is implemented. Everything below is proposed until its checkpoint passes the stated acceptance checks. The user has authorized using or generating additional data where it helps. Metrics work is paused and will resume separately; no new performance claims are implied by these extensions.
+The baseline pipeline is implemented. The offline data-quality dashboard and an analyst dashboard (overview, category/channel heatmap, linked read-only review queue, and guardrail demo) are now implemented. See [dashboard scope and instructions](dashboard/README.md). The broader features described below remain proposals where not explicitly implemented: no account timelines, persisted review actions, customer verification, related-activity graphs, or drift monitoring are included. Metrics work remains paused; no new model-performance claims are implied.
 
 ## Priorities
 

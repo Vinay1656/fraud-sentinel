@@ -2,7 +2,8 @@ import copy
 import unittest
 from pathlib import Path
 
-from fraud_sentinel.dashboard import load_checkpoint, quality_summary, render_quality
+from fraud_sentinel.dashboard import load_checkpoint, quality_summary, render_quality, render_analyst, analyst_records, category, safe_json
+from fraud_sentinel.prompt_boundary import guardrail_example
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -46,3 +47,50 @@ class QualityDashboardTests(unittest.TestCase):
 
     def test_checked_in_page_matches_builder(self):
         self.assertEqual((ROOT / 'docs/dashboard/quality.html').read_text(), render_quality(self.data))
+
+
+class AnalystDashboardTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = load_checkpoint(ROOT)
+
+    def test_unique_cases_preserve_recorded_predictions(self):
+        records = analyst_records(ROOT, self.data)
+        self.assertEqual(len(records), 988)
+        expected = {row['transaction_id']: row for row in self.data['predictions']}
+        self.assertEqual({row['id']: row['prediction'] for row in records}, expected)
+        self.assertEqual(sum(bool(row['quality_flags']) for row in records), 244)
+        self.assertNotIn('customer_name', records[0])
+
+    def test_categories_are_normalized_without_inventing_missing_values(self):
+        self.assertEqual(category('  Atm Withdrawal '), 'ATM_WITHDRAWAL')
+        self.assertEqual(category('jewellery'), category('JEWELLERY'))
+        self.assertEqual(category('N/A'), 'UNKNOWN')
+
+    def test_script_embedding_escapes_html_delimiters(self):
+        import json
+        payload = {'note': '</script><script>alert(1)</script>&'}
+        encoded = safe_json(payload)
+        self.assertNotIn('<', encoded)
+        self.assertEqual(json.loads(encoded), payload)
+
+    def test_changed_source_digest_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data['data_audit']['sha256']['transactions.csv'] = '0' * 64
+        with self.assertRaises(ValueError):
+            analyst_records(ROOT, data)
+
+    def test_changed_prediction_order_is_rejected(self):
+        data = copy.deepcopy(self.data)
+        data['predictions'].reverse()
+        with self.assertRaises(ValueError):
+            analyst_records(ROOT, data)
+
+    def test_demo_uses_actual_pipeline_prompt(self):
+        demonstration = guardrail_example(ROOT)
+        self.assertEqual(demonstration['tested_payloads'], 5)
+        self.assertEqual(len(demonstration['prompt']), 2)
+        self.assertNotIn('notes', demonstration['prompt'][1]['content'])
+
+    def test_checked_in_analyst_page_matches_builder(self):
+        self.assertEqual((ROOT / 'docs/dashboard/index.html').read_text(), render_analyst(ROOT, self.data))

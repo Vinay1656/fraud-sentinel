@@ -16,6 +16,8 @@ Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The worki
 ## Start here
 
 - [Offline data-quality dashboard](docs/dashboard/README.md) — browser-only viewing, no MLX dependencies.
+- [Analyst dashboard](docs/dashboard/index.html) — recorded overview, category heatmap, review queue, and guardrail demo; download the HTML to open it offline.
+- [Open hosted dashboards](https://vinay1656.github.io/fraud-sentinel/) — direct browser access, no installation.
 - [Runnable notebook](notebooks/fraud_sentinel.ipynb)
 - [Executed notebook with visible results](notebooks/executed_results.ipynb)
 - [Presentation](docs/presentation.pptx)
@@ -84,7 +86,7 @@ These checks run without a GPU. Model training and full inference require Apple 
 
 ## Development checkpoints
 
-Commit a working, verified increment at each checkpoint. Planned extensions are tracked separately from working features; the next proposal is a sector risk heatmap with a linked investigation queue.
+The data-quality dashboard was committed first, followed by the connected analyst overview, category/channel heatmap, review queue, and guardrail demonstration. Both read the recorded checkpoint without MLX. Customer verification, persistent case workflow, timelines, and drift monitoring remain future work.
 
 ## Published trained checkpoint
 
