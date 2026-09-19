@@ -15,6 +15,7 @@ Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The worki
 
 ## Start here
 
+- [Offline data-quality dashboard](docs/dashboard/README.md) — browser-only viewing, no MLX dependencies.
 - [Runnable notebook](notebooks/fraud_sentinel.ipynb)
 - [Executed notebook with visible results](notebooks/executed_results.ipynb)
 - [Presentation](docs/presentation.pptx)
