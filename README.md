@@ -2,7 +2,7 @@
 
 A local pipeline for cleaning relational transaction data, screening it with Llama 3.2, and producing auditable JSON predictions.
 
-Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The working baseline runs on an Apple Silicon Mac; it includes a trained-run notebook, a reproducible Python pipeline, and a presentation.
+Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The working baseline runs on an Apple Silicon Mac; it includes a reproducible notebook, a Python pipeline, and a presentation.
 
 ## What works today
 
