@@ -1,0 +1,24 @@
+{
+  "execution": "Actual Jupyter kernel, all eight code cells including dependency installation",
+  "environment": "Existing isolated Python 3.11 / MLX environment; cached pinned base weights",
+  "notebook_sha256": "8059d21b8fb7eeba2e5fbce65aecd42e676e6090e1dfc85ab534a058cfcce0ca",
+  "elapsed_seconds": 403.22,
+  "code_cells": 8,
+  "errors": 0,
+  "contract": {
+    "records": 1000,
+    "unique_transactions": 988
+  },
+  "train_steps": 120,
+  "adapter_reload_verified": true,
+  "decision_agreement_with_published_rows": 1000,
+  "max_confidence_difference_from_published": 0.0,
+  "published_artifacts_overwritten": false,
+  "regression_tests_passed": 46,
+  "browser_tests_included": 7,
+  "reviewed_source_commit": "005251b2b37651b5e219f707a3200b8829e8170b",
+  "fixes": [
+    "Shell-safe, fail-fast notebook dependency installer",
+    "README uses the already-provided dummy CSVs"
+  ]
+}

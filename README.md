@@ -15,6 +15,8 @@ Built for **The Relational Data Wrangler & Fraud Sentinel** hackathon. The worki
 
 ## Start here
 
+- [Judge walkthrough and execution limits](docs/judge-review.md)
+- [Latest judge-ready submission ZIP](https://github.com/Vinay1656/fraud-sentinel/releases/tag/judge-ready-checkpoint) — includes the corrected notebook installer and review evidence.
 - [Offline data-quality dashboard](docs/dashboard/README.md) — browser-only viewing, no MLX dependencies.
 - [Analyst dashboard](docs/dashboard/index.html) — recorded overview, category heatmap, review queue, and guardrail demo; download the HTML to open it offline.
 - [Open hosted dashboards](https://vinay1656.github.io/fraud-sentinel/) — direct browser access, no installation.
@@ -36,11 +38,10 @@ Python 3.11 or later is required. The tested machine has 16 GB unified memory. I
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e . -r requirements-mlx.txt
-python scripts/create_demo_data.py --output-dir data/raw
 python scripts/train_and_predict.py
 ```
 
-The demo generator creates fictional CSVs and refuses to overwrite existing inputs. To run with the hackathon files, put `transactions.csv`, `accounts.csv`, and `customers.csv` in `data/raw/` instead. The notebook uses the same inputs. For Jupyter, run `python -m pip install jupyterlab` in that environment, then `python -m jupyter lab` from the repository root and open the notebook. The MLX backend requires Apple Silicon; GitHub displays notebooks but does not execute them.
+The supplied dummy hackathon CSVs are already included in `data/raw/`; no data generation is needed for this run. The optional demo generator can create separate fictional examples with `python scripts/create_demo_data.py --output-dir data/demo` and refuses to overwrite existing files. The notebook uses the same `data/raw/` inputs. For Jupyter, run `python -m pip install jupyterlab` in that environment, then `python -m jupyter lab` from the repository root and open the notebook. The MLX backend requires Apple Silicon; GitHub displays notebooks but does not execute them.
 
 Predictions and reports appear in `outputs/`, and adapters in `adapters/llama_fraud_qlora/`. Running the pipeline again retrains from the base checkpoint and replaces generated outputs. The runnable notebook has clean output cells. A separate executed-results notebook retains aggregate execution evidence without individual customer/transaction examples.
 

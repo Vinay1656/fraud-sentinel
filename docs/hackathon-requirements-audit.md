@@ -50,3 +50,7 @@ The model provides the risk decision. Python serializes JSON and builds a senten
 The verified notebook uses Apple MLX and targets Apple Silicon. It is not a CUDA/Colab notebook. The public source notebook intentionally omits local output cells; the fully executed notebook remains in the local submission folder.
 
 Measured final-run training and transaction inference took about 122 and 216 seconds respectively, excluding installation, download, and preparation. This does not establish compliance with an unknown remaining organizer deadline.
+
+## Latest judge-readiness verification
+
+The fresh verification executes all eight code cells in an actual Jupyter kernel, including the corrected shell-safe dependency installer. Forty-six regression tests pass. The public executed-results notebook now contains this run. Historical timings and test counts above refer to their original checkpoints; see [current report](judge-review-report.json) and [judge guide](judge-review.md) for current evidence.
